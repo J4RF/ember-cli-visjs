@@ -1,4 +1,3 @@
-import Ember from 'ember';
 
 const { A } = Ember;
 

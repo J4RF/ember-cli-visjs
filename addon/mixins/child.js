@@ -1,4 +1,3 @@
-import Ember from 'ember';
 import ContainerMixin from 'ember-cli-visjs/mixins/container';
 const { computed, assert } = Ember;
 
@@ -16,7 +15,7 @@ export default Ember.Mixin.create({
 
   willDestroyElement() {
     this._super(...arguments);
-    this.unregisterWithParent();
+    //this.unregisterWithParent();
   },
 
   registerWithParent() {
