@@ -1,6 +1,5 @@
 /* globals vis */
 
-import Ember from 'ember';
 import ContainerMixin from 'ember-cli-visjs/mixins/container';
 import layout from '../templates/components/visjs-network';
 
