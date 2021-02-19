@@ -7,7 +7,7 @@ export default Ember.Mixin.create({
 
   init() {
     this._super(...arguments);
-    this.set('_childLayers', new A());
+    this.set('_childLayers', A());
   },
 
   registerChild(childLayer) {
