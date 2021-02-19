@@ -1,4 +1,3 @@
-import Ember from 'ember';
 import VisJsChild from 'ember-cli-visjs/components/visjs-child';
 
 export default VisJsChild.extend({
